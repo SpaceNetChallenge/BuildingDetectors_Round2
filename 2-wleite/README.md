@@ -17,7 +17,7 @@ Tell us a bit about yourself, and why you have decided to participate in the con
 
 How did you solve the problem? What approaches did you try and what choices did you make, and why? Also, what alternative approaches did you consider?
 
-- **●●** My solution is roughly the same from the first challenge.
+- **●●** My solution is roughly the same from the first challenge. [First Challenge Write up](https://github.com/SpaceNetChallenge/BuildingDetectors/tree/master/wleite)
 - **●●** What I did in a different way was to test one change at time, as we had much more time, instead of relying on intuition or on a very small testing subset, as I did in the first contest.
 
 1. **3.**** Final Approach**
