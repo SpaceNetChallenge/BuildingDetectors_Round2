@@ -2,6 +2,7 @@
 
 **Overview**
 
+![Figure1](images/Figure1ModelExample.jpg)
 **Figure1** : Best individual model with using OpenStreetMap and Pan-sharpened Multispectral data.
 
 I applied a modified U-Net model, one of deep neural network model for image segmentation. My final submission is the averaging ensemble from individually trained three U-Net models. In addition, I found the use of OpenStreetMap data is effective for predicting the building footprint. My best individual model simply uses OpenStreetMap layers and multispectral layers as the input of the deep neural network simultaneously (as described in Figure1).
@@ -21,9 +22,10 @@ Figure 2 shows an example output by my solution with U-Net models. Most building
 - **●●**** (RGB or MUL)**. In early stage of the contest, I only used RGB 3 channels. Later I found that using 8-bands multispectral data improves the performance.
 
 
-
+![Figure2](images/Figure2VegasExample.jpg)
 **Figure 2** : An example output in Vegas from validation set. Most building footprints are precisely detected. The number displayed on the building footprint represents the intersection area over union (IoU) between the prediction and the ground truth.
 
+![Figure2.1](images/Figure2p1VegasExample.jpg)
 **Figure 2.1** : Another example output in Vegas. L-shaped and concave buildings are detected successfully.
 
 1. **3.**** Final Approach**
@@ -36,13 +38,16 @@ Please provide a bulleted description of your final approach. What ideas/decisio
 - **●●** ( **OpenStreetMap** ). Joint learning from OpenStreetMap and multispectral data works. By observation, footprints of residential and industrial buildings has different shape. Obviously, there are no buildings on water area or road in general. I used the layer of residential land use, agricultural land use, industrial land use, water area, buildings and roads on OpenStreetMap. Figure 3.1 shows the example of layers on OpenStreetMap.
 
 
-
+![Figure3](images/Figure3ModelPerformance.jpg)
 **Figure 3** : Performance comparison on the provisional scores. v9s uses 256/650 scale multispectral images. v13 uses the original scale multispectral images. v16 uses the original scale multispectral images and OpenStreetMap data. v17 is an ensemble model with averaging the prediction probability of v9s, v13 and v16 model.
 
 
 
 
-
+![Figure3.1](images/Figure3p1_OSM.jpg)
+![Figure3.2](images/Figure3p2_OSM.jpg)
+![Figure3.3](images/Figure3p3_OSM.jpg)
+![Figure3.4](images/Figure3p4_OSM.jpg)
 **Figure 3.1** : Examples of layers on OpenStreetMap: From left side, ground truth, earth observation, buildings, residential land use, industrial land use and roads.
 
 1. **4.**** Open Source Resources, Frameworks and Libraries**
@@ -90,20 +95,22 @@ Please specify any potential limitations with the algorithm:
 - **●●** My model is unable to recognize multiple buildings that are close in distance as one building footprint. Examples of false negatives are shown in Figure 4.1.
 
 
-
+![Figure4](images/Figure4p1Khartoum.jpg)
 **Figure 4** : The annotation rules in Khartoum are relatively ambiguous. As the result, the shape of predictions are unclear. On the right image, the ground truth (blue or white part) is grouped and large. On the left, the ground truth is separated and small.
 
 
-
+![Figure4.1](images/Figure4p2.jpg)
+![Figure4.1](images/Figure4p3.jpg)
+![Figure4.1](images/Figure4p4.jpg)
+![Figure4.1](images/Figure4p5.jpg)
 **Figure 4.1** : Examples of false negatives. My model recognizes multiple buildings that are close in distance as one building footprint.
 
 1. **7.**** Deployment Guide**
 
 Please provide the exact steps required to build and deploy the code:
 
-The instruction is described in a separate document:
+[The instruction is described in a separate document] (https://github.com/SpaceNetChallenge/BuildingDetectors_Round2/blob/dlindenbaum-patch-1/1-XD_XD/20170613_docs_dockerized_solution.html)
 
-[https://www.dropbox.com/s/dsfymmtc2at3dhb/20170527\_docs\_dockerized\_solution\_v2.html?dl=0](https://www.dropbox.com/s/dsfymmtc2at3dhb/20170527_docs_dockerized_solution_v2.html?dl=0)
 
 1. **8.**** Final Verification**
 
@@ -111,4 +118,4 @@ Please provide instructions that explain how to train the algorithm and have it 
 
 The instruction is described in a separate document:
 
-[https://www.dropbox.com/s/dsfymmtc2at3dhb/20170527\_docs\_dockerized\_solution\_v2.html?dl=0](https://www.dropbox.com/s/dsfymmtc2at3dhb/20170527_docs_dockerized_solution_v2.html?dl=0)
+[The instruction is described in a separate document] (https://github.com/SpaceNetChallenge/BuildingDetectors_Round2/blob/dlindenbaum-patch-1/1-XD_XD/20170613_docs_dockerized_solution.html)
