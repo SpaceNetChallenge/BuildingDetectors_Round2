@@ -109,7 +109,7 @@ Please specify any potential limitations with the algorithm:
 
 Please provide the exact steps required to build and deploy the code:
 
-[The instruction is described in a separate document:] (https://github.com/SpaceNetChallenge/BuildingDetectors_Round2/blob/dlindenbaum-patch-1/1-XD_XD/20170613_docs_dockerized_solution.html)
+[The instruction is described in a separate document] (https://github.com/SpaceNetChallenge/BuildingDetectors_Round2/blob/dlindenbaum-patch-1/1-XD_XD/20170613_docs_dockerized_solution.html)
 
 
 1. **8.**** Final Verification**
@@ -118,4 +118,4 @@ Please provide instructions that explain how to train the algorithm and have it 
 
 The instruction is described in a separate document:
 
-[The instruction is described in a separate document:] (https://github.com/SpaceNetChallenge/BuildingDetectors_Round2/blob/dlindenbaum-patch-1/1-XD_XD/20170613_docs_dockerized_solution.html)
+[The instruction is described in a separate document] (https://github.com/SpaceNetChallenge/BuildingDetectors_Round2/blob/dlindenbaum-patch-1/1-XD_XD/20170613_docs_dockerized_solution.html)
