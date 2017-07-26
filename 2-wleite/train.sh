@@ -1,0 +1,1 @@
+java -Xmx120G -cp bin:lib/imageio-ext-geocore-1.1.16.jar:lib/imageio-ext-streams-1.1.16.jar:lib/imageio-ext-tiff-1.1.16.jar:lib/imageio-ext-utilities-1.1.16.jar:lib/jai_codec-1.1.3.jar:lib/jai_core-1.1.3.jar:lib/jai_imageio-1.1.jar SpacenetMain train "$@"
