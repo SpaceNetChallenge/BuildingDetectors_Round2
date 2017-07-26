@@ -6,7 +6,7 @@ Winning solutions:
 
 1. [XD_XD](https://github.com/SpaceNetChallenge/BuildingDetectors_Round2/tree/master/1-XD_XD)
 2. [wleite](https://github.com/SpaceNetChallenge/BuildingDetectors_Round2/tree/master/2-wleite)
-3. [nofto](https://github.com/SpaceNetChallenge/BuildingDetectors_Roun2/tree/master/3-nofto)
+3. [nofto](https://github.com/SpaceNetChallenge/BuildingDetectors_Round2/tree/master/3-nofto)
 
 
 For round 1 results please see the [Round 1 Repository](https://github.com/SpaceNetChallenge/BuildingDetectors)
