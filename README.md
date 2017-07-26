@@ -1,6 +1,6 @@
 ## SpaceNet Round 2 Challenge Implementations
 
-#### [SpaceNet Challenge 1 - Las Vegas, Paris, Shanghai and Khartoum Footprint Extraction](http://crowdsourcing.topcoder.com/spacenet)
+#### [SpaceNet Challenge - Las Vegas, Paris, Shanghai and Khartoum Footprint Extraction](http://crowdsourcing.topcoder.com/spacenet)
 
 Winning solutions:
 
