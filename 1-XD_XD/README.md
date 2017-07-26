@@ -25,7 +25,7 @@ Figure 2 shows an example output by my solution with U-Net models. Most building
 ![Figure2](images/Figure2VegasExample.jpg)
 **Figure 2** : An example output in Vegas from validation set. Most building footprints are precisely detected. The number displayed on the building footprint represents the intersection area over union (IoU) between the prediction and the ground truth.
 
-![Figure2.1](images/Figure2p12VegasExample.jpg)
+![Figure2.1](images/Figure2p1VegasExample.jpg)
 **Figure 2.1** : Another example output in Vegas. L-shaped and concave buildings are detected successfully.
 
 1. **3.**** Final Approach**
