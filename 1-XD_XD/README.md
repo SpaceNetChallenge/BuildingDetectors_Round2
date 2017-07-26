@@ -1,7 +1,7 @@
 **Marathon Match - Solution Description**
 
 **Overview**
-
+![Figure1](images/Figure1ModelExample.jpg)
 **Figure1** : Best individual model with using OpenStreetMap and Pan-sharpened Multispectral data.
 
 I applied a modified U-Net model, one of deep neural network model for image segmentation. My final submission is the averaging ensemble from individually trained three U-Net models. In addition, I found the use of OpenStreetMap data is effective for predicting the building footprint. My best individual model simply uses OpenStreetMap layers and multispectral layers as the input of the deep neural network simultaneously (as described in Figure1).
